@@ -67,10 +67,11 @@ try:
         print("List is empty")
         sys.exit()
 
-    print("Fetched Successfully")
+    print("Tweets Fetched Successfully")
     data = pd.DataFrame({'Tweets': s})
     data.to_csv("Recent Tweets.csv", index=False)
 
 
 except:
     print("\nInvalid uesrname or No recent tweet")
+    sys.exit()
