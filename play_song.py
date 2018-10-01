@@ -40,7 +40,3 @@ def playSong(mood):
         if quitkey is "y":
             driver.quit()
             quit()
-
-
-mood = input("Whats your current mood?\t")
-playSong(mood)
