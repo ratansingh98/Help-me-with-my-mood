@@ -1,0 +1,10 @@
+datetime
+numpy
+matplotlib
+pandas
+tweepy
+sklearn
+textblob
+selenium
+pickle
+nltk

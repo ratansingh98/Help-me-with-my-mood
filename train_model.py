@@ -11,8 +11,7 @@ dataset = pd.read_csv('ISEAR.csv', header=None).iloc[:, :2]
 # Cleaning the texts
 import re
 import nltk
-# nltk.download('stopwords')
-#from nltk.corpus import stopwords
+
 from nltk.stem.porter import PorterStemmer
 corpus = []
 for i in range(0, 7517):
@@ -20,7 +19,6 @@ for i in range(0, 7517):
     review = review.lower()
     review = review.split()
     ps = PorterStemmer()
-    #review = [ps.stem(word) for word in review if not word in set(stopwords.words('english'))]
     review = [ps.stem(word) for word in review]
     review = ' '.join(review)
     corpus.append(review)
