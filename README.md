@@ -4,9 +4,10 @@
 Help Me With My Mood is application built using python and machine learning. It uses tweepy api which extract all the public tweets within timespan of 1 day and perform sentiment analyisis on it for the provided given username. Then based upon their emotion plays a song from soundcloud.
 
 <ul>
-<li>Ideation document : </li>
+<li>Ideation document : 
+  <a href="https://docs.google.com/document/d/1QCQYZgRZxLHXSDS4FzBCd9FQCTYXklwgQol_-VUpiG8/edit">Open</a></li>
 <li>Presentation Slides :</li>
-  <li>Watch the demo <a href="https://youtu.be/7IAx-mlBLK0">here</a></li>
+  <li>Watch the demo <a href="https://youtu.be/7IAx-mlBLK0">Watch</a></li>
 </ul>
 
 ## Key Value Proposition
