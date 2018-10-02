@@ -6,7 +6,7 @@ Help Me With My Mood is application built using python and machine learning. It 
 <ul>
 <li>Ideation document : </li>
 <li>Presentation Slides :</li>
-<li>Watch the demo [here](https://youtu.be/7IAx-mlBLK0)</li>
+  <li>Watch the demo <a href="https://youtu.be/7IAx-mlBLK0">here</a></li>
 </ul>
 
 ## Key Value Proposition
